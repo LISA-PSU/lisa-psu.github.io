@@ -12,7 +12,6 @@ body {
   line-height: 1.6;
   color: #333;
   background-color: #f8f8f8;
-  padding-top: var(--header-height);
   
 }
 
@@ -43,9 +42,8 @@ header {
   z-index: 1000;
 }
 
-:root {
-  --header-height: 90px; /* Matches your hero's margin-top */
-}
+
+
 
 .header-container {
   display: flex;
