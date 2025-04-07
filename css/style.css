@@ -12,8 +12,7 @@ body {
   line-height: 1.6;
   color: #333;
   background-color: #f8f8f8;
-  --header-height: 80px; /* Set this to match your header height */
-  padding-top: var(--header-height);
+  
 }
 
 a {
@@ -35,7 +34,7 @@ a:hover {
 
 /* Header Styles */
 header {
-  height: var(--header-height);
+  
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   position: fixed;
