@@ -106,6 +106,20 @@ nav ul li a:hover::after {
   cursor: pointer;
 }
 
+/* Page Banner Styl */
+.page-banner {
+  background-image: url('../images/leonhard_building.jpeg'); /* update if needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px; /* adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px; /* gives space below the banner */
+  position: relative;
+}
+
 /* Hero Section Styles */
 .hero {
   height: 500px;
