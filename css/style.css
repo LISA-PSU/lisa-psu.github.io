@@ -55,7 +55,7 @@ header {
 }
 
 .logo img {
-  height: 80px;
+  height: 60px;
   width: auto;
   margin-right: 15px;
 }
@@ -67,7 +67,7 @@ header {
 }
 
 .logo-text p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #666;
 }
 
