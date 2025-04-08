@@ -112,7 +112,7 @@ nav ul li a:hover::after {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 300px; /* adjust as needed */
+  height: 150px; /* adjust as needed */
   display: flex;
   align-items: center;
   justify-content: center;
