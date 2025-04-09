@@ -205,36 +205,33 @@ section {
   margin: 0 auto;
 }
 
-/* About Section Styles */
 .about-content {
-  display: flex;
-  align-items: center;
-  gap: 50px;
+  overflow: hidden; /* Ensures float containment */
 }
 
 .about-image {
-  flex: 1;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 .about-image img {
-  width: 100%;
+  height: 320px;
   border-radius: 8px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.about-text {
-  flex: 1;
-}
-
 .about-text h3 {
   font-size: 1.8rem;
-  color: #1E407C; /* Penn State blue */
+  color: #1E407C;
   margin-bottom: 20px;
 }
 
 .about-text p {
   margin-bottom: 15px;
+  text-align: justify;
 }
+
 
 /* Research Areas Styles */
 .research-areas {
