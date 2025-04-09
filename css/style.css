@@ -406,6 +406,17 @@ section {
   margin-bottom: 15px;
 }
 
+.news-item-content p {
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* show only 5 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 20px;
+  color: #333;
+  line-height: 1.5;
+}
+
 /* Contact Section Styles */
 .contact-container {
   display: grid;
