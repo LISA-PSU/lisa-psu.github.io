@@ -718,3 +718,14 @@ footer {
     font-size: 1.8rem;
   }
 }
+@media (max-width: 900px) {
+  .research-grid {
+    grid-template-columns: repeat(2, 1fr); /* for medium screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .research-grid {
+    grid-template-columns: 1fr; /* for phones */
+  }
+}
