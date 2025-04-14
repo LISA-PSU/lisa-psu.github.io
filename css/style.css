@@ -110,17 +110,33 @@ nav ul li a:hover::after {
 
 /* Page Banner Styl */
 .page-banner {
-  background-image: url('../images/leonhard_building.jpeg'); /* update if needed */
+  background-image: url('../images/brain_background2.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 150px; /* adjust as needed */
+  height: 200px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 40px; /* gives space below the banner */
+  align-items: center;     /* vertically center */
+  justify-content: center; /* horizontally center */
+  margin-top: 50px;
+  text-align: center;
   position: relative;
 }
+
+.banner-text {
+  color: white;
+  z-index: 1;
+}
+
+
+.page-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
 
 /* Hero Section Styles */
 .hero {
@@ -222,6 +238,14 @@ section {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
+.about-text h2 {
+  margin-top: 40px; /* or 40px if 60 feels too big */
+}
+
+.about-sidebar-director {
+  margin-top: 60px; /* or 40px if 60 feels too big */
+}
+
 .about-text h3 {
   font-size: 1.8rem;
   color: #1E407C;
@@ -282,6 +306,105 @@ section {
 .research-area-content p {
   margin-bottom: 20px;
 }
+
+/* Research Objectives section */
+.research-objectives-section {
+  background-color: #f5f7fb;
+  padding: 60px 20px;
+}
+
+.section-title {
+  text-align: center;
+  color: #1E407C;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.research-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.research-card:hover {
+  transform: translateY(-5px);
+}
+
+.research-card .icon {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  color: #1E407C;
+}
+
+.research-card h3 {
+  font-size: 1.1rem;
+  color: #1E407C;
+  margin-bottom: 10px;
+}
+
+.research-card p {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.research-card i {
+  font-size: 2.5rem;
+  color: tomato;
+  margin-bottom: 15px;
+}
+
+/* Educational Objectives section */
+.educational-objectives-section {
+  background-color: #ffffff;
+  padding: 60px 20px;
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.edu-card {
+  background-color: #f5f7fb;
+  border-radius: 10px;
+  padding: 20px 25px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.edu-card i {
+  font-size: 1.8rem;
+  color: tomato;
+  margin-bottom: 15px;
+}
+
+.edu-card p {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+
 
 /* Team Section Styles */
 .team-grid {

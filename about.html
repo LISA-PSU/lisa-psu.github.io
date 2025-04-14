@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
     <!-- Header Section -->
@@ -39,14 +41,14 @@
     </header>
 
     <!-- Page Banner -->
-    <section class="page-banner" style="background-image: url('images/leonhard_building.jpeg');">
 
+    <section class="page-banner">
+        <div class="banner-text">
+          <h2>About Our Lab</h2>
+          <p>Exploring the frontiers of intelligent systems and analytics to solve complex problems</p>
+        </div>
     </section>
 
-    <div class="section-title">
-                <h2>About Our Lab</h2>
-                <p>Exploring the frontiers of intelligent systems and analytics to solve complex problems</p>
-            </div>
 
     
     <!-- About Section -->
@@ -66,121 +68,118 @@
                     <p>At LISA, we believe in the power of interdisciplinary research to solve complex real-world problems. Our approach combines theoretical foundations with practical applications, leveraging expertise from various domains including industrial engineering, computer science, data science, and domain-specific knowledge.</p>
                     <p>We are committed to developing methods and tools that not only advance academic knowledge but also create tangible impact in industry and society. Through our research, we aim to bridge the gap between theory and practice, creating solutions that address real-world challenges.</p>
                 </div>
-                <div class="about-sidebar">
+
+                <div class="about-sidebar-director">
                     <div class="sidebar-box">
                         <h3>Lab Director</h3>
                         <div class="director-profile">
-                            <img src="images/director.jpg" alt="Lab Director">
-                            <h4>Dr. [Director Name]</h4>
+                            <img src="images/U1O.jpg" alt="Lab Director Dr. Soundar Kumara">
+                            <h4>Dr. Soundar Kumara</h4>
+                            <p>222 Leonhard Building</p>
                             <p>Professor of Industrial and Manufacturing Engineering</p>
-                            <p>Email: director@psu.edu</p>
-                            <p>Phone: (814) 863-XXXX</p>
+                            <p>Email: skumara@psu.edu</p>
+                            <p>Phone: (814) 863-2359</p>
                             <div class="social-links">
-                                <a href="#"><i class="fab fa-linkedin"></i></a>
-                                <a href="#"><i class="fab fa-google"></i></a>
-                                <a href="#"><i class="fab fa-researchgate"></i></a>
+                                <a href="https://www.linkedin.com/in/soundar-kumara-1919971/"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://scholar.google.com/citations?hl=en&user=ZdpizmQAAAAJ"><i class="fab fa-google"></i></a>
+                                <a href="https://www.researchgate.net/profile/Soundar-Kumara"><i class="fab fa-researchgate"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="sidebar-box">
-                        <h3>Lab Facilities</h3>
-                        <ul class="facilities-list">
-                            <li>Advanced Computing Infrastructure</li>
-                            <li>Data Analytics Laboratory</li>
-                            <li>Collaborative Research Space</li>
-                            <li>Smart Manufacturing Testbed</li>
-                            <li>Sensor Networks</li>
-                        </ul>
-                    </div>
                 </div>
+
+                
             </div>
         </div>
     </section>
 
     <!-- Research Objectives -->
-    <section class="objectives-section" style="background-color: #f1f5f9;">
+    <section class="research-objectives-section" style="background-color: #f1f5f9;">
         <div class="container">
-            <div class="section-title">
-                <h2>Research Objectives</h2>
-                <p>Our lab focuses on several key research objectives that drive our work</p>
+          <h2 class="section-title">Research Objectives</h2>
+          <p class="section-subtitle">Our lab focuses on several key research objectives that drive our work</p>
+      
+          <div class="research-grid">
+            <div class="research-card">
+                <i class="fas fa-chart-line"></i> <!-- Analytics -->
+                <h3>Sensor data representation, modeling, and analysis</h3>
+              <p>Developing advanced techniques for processing and analyzing sensor data from complex systems.</p>
             </div>
-            <div class="objectives-grid">
-                <div class="objective-item">
-                    <div class="objective-icon">
-                        <i class="fas fa-chart-network"></i>
-                    </div>
-                    <h3>Sensor data representation, modeling, and analysis</h3>
-                    <p>Developing advanced techniques for processing and analyzing sensor data from complex systems.</p>
-                </div>
-                <div class="objective-item">
-                    <div class="objective-icon">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                    <h3>Nonlinear Complex Systems analysis</h3>
-                    <p>Investigating the behavior and dynamics of nonlinear complex systems using mathematical and computational approaches.</p>
-                </div>
-                <div class="objective-item">
-                    <div class="objective-icon">
-                        <i class="fas fa-industry"></i>
-                    </div>
-                    <h3>Applications of AI and ML to Manufacturing and Healthcare</h3>
-                    <p>Applying artificial intelligence and machine learning techniques to solve real-world problems in manufacturing and healthcare domains.</p>
-                </div>
-                <div class="objective-item">
-                    <div class="objective-icon">
-                        <i class="fas fa-cogs"></i>
-                    </div>
-                    <h3>AI&ML based implementation paradigms for smart manufacturing</h3>
-                    <p>Developing frameworks and methodologies for implementing AI and ML solutions in smart manufacturing environments.</p>
-                </div>
-                <div class="objective-item">
-                    <div class="objective-icon">
-                        <i class="fas fa-heartbeat"></i>
-                    </div>
-                    <h3>Healthcare Data Analytics</h3>
-                    <p>Analyzing healthcare data to improve patient outcomes, optimize healthcare operations, and support clinical decision-making.</p>
-                </div>
-                <div class="objective-item">
-                    <div class="objective-icon">
-                        <i class="fas fa-truck"></i>
-                    </div>
-                    <h3>Real-time supply chain resilience analysis</h3>
-                    <p>Developing methods for analyzing and enhancing supply chain resilience in real-time to mitigate disruptions.</p>
-                </div>
+      
+            <div class="research-card">
+                <i class="fas fa-project-diagram"></i> <!-- Complex systems -->
+                <h3>Nonlinear Complex Systems analysis</h3>
+              <p>Investigating the behavior and dynamics of nonlinear complex systems using mathematical and computational approaches.</p>
             </div>
+      
+            <div class="research-card">
+                <i class="fas fa-cogs"></i> <!-- Smart manufacturing -->
+                <h3>Applications of AI and ML to Manufacturing and Healthcare</h3>
+              <p>Applying AI and ML techniques to solve real-world problems in manufacturing and healthcare domains.</p>
+            </div>
+      
+            <div class="research-card">
+                <i class="fas fa-microchip"></i> <!-- AI/ML -->
+                <h3>AI & ML paradigms for smart manufacturing</h3>
+              <p>Developing frameworks and methodologies for implementing AI and ML solutions in smart manufacturing environments.</p>
+            </div>
+      
+            <div class="research-card">
+                <i class="fas fa-stethoscope"></i> <!-- Healthcare -->
+                <h3>Healthcare Data Analytics</h3>
+              <p>Analyzing healthcare data to improve patient outcomes, optimize operations, and support clinical decision-making.</p>
+            </div>
+      
+            <div class="research-card">
+                <i class="fas fa-truck"></i> <!-- Supply chain -->
+                <h3>Real-time supply chain resilience analysis</h3>
+              <p>Developing methods for analyzing and enhancing supply chain resilience in real-time to mitigate disruptions.</p>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
+      
 
     <!-- Educational Objectives -->
-    <section class="education-section">
+    <section class="educational-objectives-section">
         <div class="container">
-            <div class="section-title">
-                <h2>Educational Objectives</h2>
-                <p>In addition to research, we are committed to education and training the next generation of researchers</p>
+          <h2 class="section-title">Educational Objectives</h2>
+          <p class="section-subtitle">
+            In addition to research, we are committed to education and training the next generation of researchers.
+          </p>
+      
+          <div class="education-grid">
+            <div class="edu-card">
+              <i class="fas fa-users"></i>
+              <p>Foster collaborative environments where students and faculty exchange ideas and insights.</p>
             </div>
-            <div class="education-content">
-                <div class="education-text">
-                    <ul class="education-list">
-                        <li>To provide an environment for graduate students and faculty to exchange ideas and share learning related to the mission statement</li>
-                        <li>To utilize pooled resources to provide a better research environment for our Lab members, and to bring publicity to our research efforts and successes</li>
-                        <li>Provide graduate students with a smaller graduate community in which to be known and establish friendships</li>
-                        <li>Gain research experience and technological awareness by interacting/collaborating with other Lab members</li>
-                        <li>To develop professional communication skills (e.g., communication of research funding via papers, presentations, posters boards, etc.)</li>
-                    </ul>
-                </div>
-                <div class="education-image">
-                    <img src="images/education.jpg" alt="Educational Environment">
-                </div>
+            <div class="edu-card">
+              <i class="fas fa-lightbulb"></i>
+              <p>Encourage innovation and intellectual curiosity through hands-on research.</p>
             </div>
+            <div class="edu-card">
+              <i class="fas fa-handshake"></i>
+              <p>Promote meaningful professional and social relationships within the graduate community.</p>
+            </div>
+            <div class="edu-card">
+              <i class="fas fa-network-wired"></i>
+              <p>Support interdisciplinary learning through collaboration with other labs and institutions.</p>
+            </div>
+            <div class="edu-card">
+              <i class="fas fa-microphone"></i>
+              <p>Strengthen students’ communication skills for presentations, writing, and funding proposals.</p>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
+      
 
     <!-- Footer Section -->
     <footer>
         <div class="container">
             <div class="footer-container">
                 <div class="footer-logo">
-                    <img src="images/logo-white.png" alt="LISA Lab Logo">
+                    <img src="images/logo55v2.png" alt="LISA Lab Logo">
                     <p>Laboratory for Intelligent Systems and Analytics at Penn State University</p>
                 </div>
                 <div class="footer-links">
