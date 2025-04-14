@@ -125,9 +125,9 @@ nav ul li a:hover::after {
 /* Hero Section Styles */
 .hero {
   height: 500px;
-  background-image: url('../images/leonhard_building.jpeg');
+  background-image: url('../images/brain_background2.png');
   background-size: cover;
-  background-position: center;
+  background-position: 70% center;
   background-repeat: no-repeat;
   position: relative;
   margin-top: 90px;
@@ -296,7 +296,7 @@ section {
   width: 250px;
   height: 250px;
   object-fit: cover;
-  border-radius: 6px;
+  border-color: #005fa9;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   margin: 0 auto; /* center image inside the card */
   display: block;
