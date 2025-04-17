@@ -825,6 +825,10 @@ footer {
   .education-grid {
     grid-template-columns: 1fr;
   }
+
+  .page-banner {
+    margin-top: 100px; /* or adjust as needed */
+  }
   
   nav ul {
     display: none;
