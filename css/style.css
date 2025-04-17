@@ -684,6 +684,57 @@ section {
   
 }
 
+/* Explore Page Styles */
+.explore-section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.explore-section h2 {
+  color: #1E407C;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.demo-box,
+.quiz-box {
+  background: #f9f9f9;
+  padding: 30px;
+  margin-bottom: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.demo-box textarea,
+.quiz-box input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #1E407C;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #005fa9;
+}
+
+
+
+
 
 /* Contact Section Styles */
 .contact-container {
@@ -864,6 +915,9 @@ footer {
   
   .section-title h2 {
     font-size: 2rem;
+  }
+  .explore-section {
+    padding: 40px 15px;
   }
 }
 
